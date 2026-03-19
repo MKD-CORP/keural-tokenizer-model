@@ -1,0 +1,143 @@
+{
+  "model_name": "Keural-13B Tokenizer",
+  "status": "LOCKED - DO NOT MODIFY AFTER PRETRAINING",
+  "created_at": "2026-03-11T11:55:40.906220",
+  "corpus": {
+    "file": "/home/work/keural-model/keural-model/data/raw/tokenizer_corpus_clean.txt",
+    "size_gb": 26.74,
+    "total_lines": 4345100,
+    "total_chars": 25348127381,
+    "estimated_tokens": 6337031845,
+    "short_lines_lt_80": 0,
+    "long_lines_gt_max_sentence_length": 422538
+  },
+  "tokenizer": {
+    "model_type": "unigram",
+    "vocab_size": 131072,
+    "character_coverage": 0.9995,
+    "byte_fallback": true,
+    "split_digits": true,
+    "split_by_unicode_script": true,
+    "normalization_rule_name": "nfkc",
+    "max_sentence_length": 10000,
+    "num_threads": 32,
+    "train_extremely_large_corpus": true,
+    "shuffle_input_sentence": true
+  },
+  "special_tokens": {
+    "pad": {
+      "id": 0,
+      "piece": "<pad>"
+    },
+    "bos": {
+      "id": 1,
+      "piece": "<bos>"
+    },
+    "eos": {
+      "id": 2,
+      "piece": "<eos>"
+    },
+    "unk": {
+      "id": 3,
+      "piece": "<unk>"
+    }
+  },
+  "training": {
+    "elapsed_minutes": 67.4,
+    "train_log_file": "/home/work/keural-model/keural-model/data/logs/tokenizer_train_20260311_104736.log",
+    "resource_log_file": "/home/work/keural-model/keural-model/data/logs/tokenizer_resources_20260311_104736.jsonl"
+  },
+  "validation": {
+    "english_chars_per_token": 4.15,
+    "validation_cases": {
+      "korean": {
+        "input": "안녕하세요 저는 큐럴 토크나이저를 테스트합니다.",
+        "num_tokens": 10,
+        "pieces_preview": [
+          "안녕하세요",
+          "▁저는",
+          "▁큐",
+          "럴",
+          "▁토크",
+          "나이",
+          "저를",
+          "▁테스트",
+          "합니다",
+          "."
+        ],
+        "roundtrip_ok": true
+      },
+      "english": {
+        "input": "Hello, this is a tokenizer validation test for Keural.",
+        "num_tokens": 13,
+        "pieces_preview": [
+          "Hello",
+          ",",
+          "▁this",
+          "▁is",
+          "▁a",
+          "▁token",
+          "izer",
+          "▁validation",
+          "▁test",
+          "▁for",
+          "▁Ke",
+          "ural",
+          "."
+        ],
+        "roundtrip_ok": true
+      },
+      "code": {
+        "input": "def hello_world():\n    return 42",
+        "num_tokens": 10,
+        "pieces_preview": [
+          "def",
+          "▁hello",
+          "_",
+          "world",
+          "():",
+          "<0x0A>",
+          "▁return",
+          "▁",
+          "4",
+          "2"
+        ],
+        "roundtrip_ok": false
+      },
+      "mixed": {
+        "input": "안녕하세요 world 123 def test(): return True",
+        "num_tokens": 11,
+        "pieces_preview": [
+          "안녕하세요",
+          "▁world",
+          "▁",
+          "1",
+          "2",
+          "3",
+          "▁def",
+          "▁test",
+          "():",
+          "▁return",
+          "▁True"
+        ],
+        "roundtrip_ok": true
+      },
+      "rare_char": {
+        "input": "𠜎",
+        "num_tokens": 4,
+        "pieces_preview": [
+          "<0xF0>",
+          "<0xA0>",
+          "<0x9C>",
+          "<0x8E>"
+        ],
+        "roundtrip_ok": true
+      }
+    }
+  },
+  "immutability": {
+    "sha256_model": "b982818ea2f2057ba791e2006d17683799f1d8ceb9c91322018a638c4ec4b170",
+    "model_file": "/home/work/keural-model/keural-model/tokenizer/keural_tokenizer.model",
+    "vocab_file": "/home/work/keural-model/keural-model/tokenizer/keural_tokenizer.vocab"
+  }
+}

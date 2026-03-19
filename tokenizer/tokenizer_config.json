@@ -1,0 +1,32 @@
+{
+  "architectures": [
+    "KeuralMoEForCausalLM"
+  ],
+  "model_type": "keural_moe",
+  "vocab_size": 131072,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0,
+  "unk_token_id": 3,
+  "tokenizer_class": "SentencePieceTokenizer",
+  "sentencepiece_model_file": "keural_tokenizer.model",
+  "special_tokens_map": {
+    "pad_token": "<pad>",
+    "bos_token": "<bos>",
+    "eos_token": "<eos>",
+    "unk_token": "<unk>"
+  },
+  "normalization": "nfkc",
+  "split_digits": true,
+  "byte_fallback": true,
+  "max_context_target": 1048576,
+  "context_stages": [
+    4096,
+    8192,
+    32768,
+    131072,
+    262144,
+    524288,
+    1048576
+  ]
+}
