@@ -431,7 +431,7 @@ keural-tokenizer/
 ## Author & License
 **MKD CO., LTD.**
 **Keural Team**
-**Md Najmul Hossain**
+**Hossain**
 Email: hossain.najmul@mkd.kr
 
 This tokenizer was built entirely from scratch as part of the Keural foundation model project. The training corpus, cleaning pipeline, and tokenizer configuration are original work.
@@ -441,7 +441,7 @@ Related repositories:
 
 ```bibtex
 @misc{keural-tokenizer-2026,
-  author = {Md Najmul Hossain & Keural Team},
+  author = {Hossain & Keural Team},
   title  = {Keural Tokenizer: A Multilingual SentencePiece Tokenizer for Korean and English},
   year   = {2026},
   url    = {https://github.com/mkd-hossain/keural-tokenizer}
