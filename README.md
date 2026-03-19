@@ -170,7 +170,7 @@ This tokenizer is the **only** tokenizer compatible with Keural model checkpoint
 
 | Repository | Compatible |
 |---|---|
-| [Keural-Model-Training](https://github.com/mkd-hossain/Keural-Model-Training) | ✅ Required |
+| [Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training) | ✅ Required |
 | Any other model | ❌ Not compatible |
 
 ### Integration with HuggingFace Transformers
@@ -344,7 +344,7 @@ python scripts/step4_build_binary_dataset.py \
   --seq_len 4096
 ```
 
-See [Keural-Model-Training](https://github.com/mkd-hossain/Keural-Model-Training) for the full training pipeline.
+See [Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training) for the full training pipeline.
 
 ---
 
@@ -431,19 +431,18 @@ keural-tokenizer/
 ## Author & License
 **MKD CO., LTD.**
 **Keural Team**
-**Hossain**
-Email: hossain.najmul@mkd.kr
+Email:
 
 This tokenizer was built entirely from scratch as part of the Keural foundation model project. The training corpus, cleaning pipeline, and tokenizer configuration are original work.
 
 Related repositories:
-- Model Training: [github.com/mkd-hossain/Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training)
+- Model Training: [github.com/MKD-CORP/Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training)
 
 ```bibtex
 @misc{keural-tokenizer-2026,
-  author = {Hossain & Keural Team},
+  author = {MKD CO, LTD. & Keural Team},
   title  = {Keural Tokenizer: A Multilingual SentencePiece Tokenizer for Korean and English},
   year   = {2026},
-  url    = {https://github.com/mkd-hossain/keural-tokenizer}
+  url    = {https://github.com/MKD-CORP/keural-tokenizer}
 }
 ```
