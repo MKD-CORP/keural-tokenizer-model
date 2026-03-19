@@ -437,7 +437,7 @@ Email: hossain.najmul@mkd.kr
 This tokenizer was built entirely from scratch as part of the Keural foundation model project. The training corpus, cleaning pipeline, and tokenizer configuration are original work.
 
 Related repositories:
-- Model Training: [github.com/mkd-hossain/Keural-Model-Training](https://github.com/mkd-hossain/Keural-Model-Training)
+- Model Training: [github.com/mkd-hossain/Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training)
 
 ```bibtex
 @misc{keural-tokenizer-2026,
