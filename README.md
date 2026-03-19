@@ -2,7 +2,7 @@
 
 > **Custom multilingual SentencePiece tokenizer for Korean + English + Code**
 > Designed for the Keural MoE foundation model. Vocab size: 131,072.
-> Built and maintained by **Md Najmul Hossain** / **MKD CO., LTD.**
+> Built and maintained by **MKD CO., LTD.**
 
 ---
 
