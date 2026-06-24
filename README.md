@@ -437,6 +437,7 @@ This tokenizer was built entirely from scratch as part of the Keural foundation 
 
 Related repositories:
 - Model Training: [github.com/MKD-CORP/Keural-Model-Training](https://github.com/MKD-CORP/Keural-Model-Training)
+- Model : https://huggingface.co/mkd-ai/keural-tokenizer
 
 ```bibtex
 @misc{keural-tokenizer-2026,
