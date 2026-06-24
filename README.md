@@ -431,7 +431,8 @@ keural-tokenizer/
 ## Author & License
 **MKD CO., LTD.**
 **Keural Team**
-Email:
+Email: ai@mkd.kr
+[![License](https://img.shields.io/github/license/MKD-CORP/Keural-MoE-14B-Training)](https://github.com/MKD-CORP/Keural-MoE-14B-Training/blob/main/LICENSE)
 
 This tokenizer was built entirely from scratch as part of the Keural foundation model project. The training corpus, cleaning pipeline, and tokenizer configuration are original work.
 
